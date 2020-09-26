@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: beige;
+    font-size: 20px;
+}
+input {
+    width: 300px;
+    height: 35px;
+    font-size: 18px;
+    /* display: inline-block; */
+}
+button {
+    width: 185px;
+    height: 40px;
+    background-color: #CE5A57;
+    color: white;
+    font-size: 25px;
+    border: none;
+    position: absolute;
+    margin: 0 0 0 5px;
+    text-transform: uppercase;
+}
+.todo-container {
+    display: block;
+    width: 500px;
+    margin: 0 auto;
+}
+.item-list {
+    box-sizing: border-box;
+}
+li {
+    list-style-type: none;
+    cursor: pointer;
+    position: relative;
+    margin: 5px 0 0 -40px;
+    line-height: 30px;
+    background-color: #78A5A3;
+    color: white;
+    padding: 5px;
+    height: 35px;
+    transition: 0.5s;
+    user-select: none;
+}
+li:hover {
+    background-color: rgba(120, 165, 163, .8);
+}
+.close {
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 9px 16px 6px 16px;
+}
+.close:hover {
+    background-color: #444C5C;
+}
+.checked {
+    background-color: #a5a278;
+    text-decoration: line-through;
+}
+.checked:hover{
+    background-color: #a5a278;
+}
